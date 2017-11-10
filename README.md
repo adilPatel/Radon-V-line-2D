@@ -11,6 +11,6 @@ Oh hai! This project contains code for a 2D V-line Radon transform inversion. Th
 You'll see two plots: an image of a phantom and a reconstructed image. The reconstructed image has heavy artifacts due to the lack of a filter. In normal linear filtered backprojection algorithms, a Ram-Lak filter is used. We don't have the luxury here, so it's still being researched. 
 
 ## General Information
-The C++ code was last compiled on the 21st September 2017 using the Apple LLVM version 9.0.0 (clang-900.0.37). The filter used for backprojection is still remaining, but there is some useful code included here, particularly the numerical line integrator. 
+The C++ code was last compiled on the 21st September 2017 using the Apple LLVM version 9.0.0 (clang-900.0.37) compiler. The filter used for backprojection is still remaining, but there is some useful code included here, particularly the numerical line integrator. 
 
 Thank you for your attention, and I hope you have a wonderful day!
