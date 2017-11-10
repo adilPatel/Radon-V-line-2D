@@ -53,7 +53,6 @@ voxel_iterations = length(phantom_grid) - 1;
 % The angular resolution...
 d_theta = pi / 80;
 angle_iterations = length(0:d_theta:(pi/2-d_theta));
-% forward_array  = zeros(voxel_iterations, voxel_iterations, voxel_iterations, angle_iterations);
 forward_array  = zeros(voxel_iterations, angle_iterations);
 
 for i = 1:2*d_half
