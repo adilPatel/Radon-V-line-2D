@@ -1,6 +1,6 @@
 # Radon-V-line-2D
 
-Oh hai! This project contains code for a 2D V-line Radon transform inversion. The code is written in MATLAB with some C++ attachments. It's simply a step along the way to a full 3D radon transform inversion.
+Oh hi! This project contains code for a 2D V-line Radon transform inversion. The code is written in MATLAB with some C++ attachments. It's simply a step along the way to a full 3D radon transform inversion.
 
 ## Running the code
 1. Ensure you have a mex compiler set up for MATLAB to run the C++ code attachments used in the line integral function. See the [MATLAB website](https://uk.mathworks.com/help/matlab/matlab_external/introducing-mex-files.html) for information. 
